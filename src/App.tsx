@@ -2,7 +2,6 @@ import ContinentDisplay from "./components/ContinentDisplay";
 import {JSX, } from "react";
 import CountryBox from "./components/CountryBox";
 import { BrowserRouter } from 'react-router-dom'
-import ModeContext from "./ModeContext/ModeContext.tsx";
 
 function App():JSX.Element {
   return (
