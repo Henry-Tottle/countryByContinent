@@ -38,7 +38,7 @@ function EachCountry({ continent }: EachCountryProps): JSX.Element {
 
     return (
         <>
-            <img className='pl-32' src={`${image}.jpeg`} alt={`${continent} image`} />
+            <img className='pl-32' src={`images/${image}.jpeg`} alt={`${continent} image`} />
             {countries.map((country, index) => (
                 <div
                     key={index}
