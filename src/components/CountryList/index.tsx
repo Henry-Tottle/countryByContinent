@@ -28,6 +28,8 @@ function EachCountry({ continent }: EachCountryProps): JSX.Element {
     }, [continent]);
 
     let image = '';
+
+
     if (continent === 'north%20america') {
         image = 'northAmerica';
     } else if (continent === 'south%20america') {
@@ -36,6 +38,7 @@ function EachCountry({ continent }: EachCountryProps): JSX.Element {
         image = continent;
     }
 
+    console.log(`countryByContinent/public/images/${image}.jpeg`)
     return (
         <>
             <img className='pl-32' src={`images/${image}.jpeg`} alt={`${continent} image`} />

@@ -6,15 +6,15 @@ function ContinentDisplay():JSX.Element  {
     return (
         <>
             <Routes>
-                <Route path={'/'} element={<DescriptionBox/>}/>
+                <Route path={'/countryByContinent'} element={<DescriptionBox/>}/>
             </Routes>
         <div className='border-b-2 text-center my-5 pb-3'>
-                <Link className='mx-5 hover:font-bold' to='africa'>Africa</Link>
-                <Link className='mx-5 hover:font-bold' to='asia'>Asia</Link>
-                <Link className='mx-5 hover:font-bold' to='europe'>Europe</Link>
-                <Link className='mx-5 hover:font-bold' to='north_america'>North America</Link>
-                <Link className='mx-5 hover:font-bold' to='oceania'>Oceania</Link>
-                <Link className='mx-5 hover:font-bold' to='south_america'>South America</Link>
+                <Link className='mx-5 hover:font-bold' to='countryByContinent/africa'>Africa</Link>
+                <Link className='mx-5 hover:font-bold' to='countryByContinent/asia'>Asia</Link>
+                <Link className='mx-5 hover:font-bold' to='countryByContinent/europe'>Europe</Link>
+                <Link className='mx-5 hover:font-bold' to='countryByContinent/north_america'>North America</Link>
+                <Link className='mx-5 hover:font-bold' to='countryByContinent/oceania'>Oceania</Link>
+                <Link className='mx-5 hover:font-bold' to='countryByContinent/south_america'>South America</Link>
         </div>
 </>
     )
